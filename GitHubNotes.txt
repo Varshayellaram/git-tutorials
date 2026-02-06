@@ -1,0 +1,55 @@
+git is a famous version control system 
+
+    vcs is used to store , maintain and track the code changes of a project
+github is a remote repository hosting service  -- this github stores all the repositories in it
+repository -- it is folder or a project
+
+there are 4 main stages in git--
+      1.remote repo
+      2.local repo
+      3.staging area
+      4.working directory
+
+
+companies uses - bitbucket vcs for their applications
+for beginners git is used
+git is free any one can create the account and maintain the code
+ 
+a repository can consits of any type of files like txt,py,java,img 
+no commits --means no errors
+
+when we create a file and we check for the status then it tells that untracked file 
+that is called  we are stored the file in working directory
+
+without staging area we cannot send the files individually which we need only we able to send all the files which are present in working 
+  directory at a time.
+we can send any no of files we need into the staging area from working directory
+
+--staging area  == changes to be commited 
+--working directory == untracked files
+
+--we cannot see the local repo,remote repo files
+
+local repository -- the project folder which we created in our system is called local repo
+remote repository -- the project folder which we not created in our sytem is called remote repo
+
+in github gitignore -- is a folder which allows us to specify any files which should be ignored while commiting or pushing a file
+
+
+COMMANDS 
+git init -- used to initialise a project or a folder
+git --version  .. to heck the version of git
+git status  -- used to see the status of the git repo
+git add <file_name with extension>  -- is used to send files into staging area
+git commit --used to commit the files into local repo
+git commit -m "commiting code file"  --this is used to commit the file by passing some message
+
+after commiting into local repo we need to create a remote repo to puch to it so we have to create a repo in github 
+after that we get the line as add remote and followed with a repo
+copy that and paste it in cmd
+after running then we can push into remote repo
+otherwise we cannot directly push into remote repo
+
+
+using 'commit' command we can send files into local repo
+using 'push' command we can send files from local repo to remote repo
